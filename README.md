@@ -45,9 +45,23 @@ optional arguments:
   -a TOKEN, --token TOKEN
                         Authorization Token to Azure DevOps Board
 ```
+## Result
 
+```apacheconfig
+=====  =======  ========
+..       items    points
+=====  =======  ========
+Done         2         1
+Doing        3        24
+New          2         0
+Stuck        3        19
+TOTAL       10        44
+=====  =======  ========
+```
 
 ## Integrating with Slack & Jenkins
+
+![Full screen](doc/screen-7.png)
 
 This script can be run via Jenkins and Post result to the slack channel, to reduce the time to check it manaually and the rest of the team can view the burndown daily. An agile team can use it as they are self-organizing team.
 
